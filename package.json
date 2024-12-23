@@ -1,0 +1,27 @@
+{
+  "name": "voting_app",
+  "version": "1.0.0",
+  "description": "Voting_app",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nothing"
+  ],
+  "author": "Sayantan_iit_kgp",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "loadash": "^1.0.0",
+    "mongoose": "^8.9.1",
+    "nodemon": "^3.1.9",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
